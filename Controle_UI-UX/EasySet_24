@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#F9F9F9]">
+
+ 
+    <nav class="w-full">
+    <div class="mt-8  mx-12 flex ">
+      
+    
+      <a href="#">
+        <img src="images/Logo.png" alt="Logo" class="mr-32">
+      </a>
+      
+      <div class="relative w-full max-w-xl mt-3 ml-28 mr-24">
+        <input type="text" class="w-full ml- border border-gray-300 py-2 pl-4 pr-10 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Search...">
+        <div class="absolute inset-y-0 right-0 flex items-center pr-3">
+          <img src="images/search.png" alt="Search icon" class="mb-4">
+        </div>
+      </div>
+
+      <div class="flex items-center">
+        <img src="images/Icons.png" alt="Profile" class="mr-24">
+        <img src="images/profile.jfif" alt="profile pic" class="rounded-3xl w-9">
+        <div>
+            ewve
+        </div>
+      </div>
+    </div>
+      
+    <div class="flex justify-center gap-5 m-8">
+        <div class=" items-center">
+            <a href="#" class="text-center flex px-6 py-2 rounded-full border border-[#A6A6A6] text-[#A6A6A6] hover:bg-blue-700 hover:text-white hover:font-bold transition-colors duration-300">
+                Trip
+            </a>
+        </div>
+        <div class=" items-center">
+            <a href="#" class="text-center flex px-6 py-2 rounded-full border border-[#A6A6A6] text-[#A6A6A6] hover:bg-blue-700 hover:text-white hover:font-bold transition-colors duration-300">
+                Deals%
+            </a>
+        </div>
+        <div class=" items-center">
+            <a href="#" class="text-center flex px-6 py-2 rounded-full border border-[#A6A6A6] text-[#A6A6A6] hover:bg-blue-700 hover:text-white hover:font-bold transition-colors duration-300">
+                Hotel
+            </a>
+        </div>
+        <div class=" items-center">
+            <a href="#" class="text-center flex px-6 py-2 rounded-full border border-[#A6A6A6] text-[#A6A6A6] hover:bg-blue-700 hover:text-white hover:font-bold transition-colors duration-300">
+                Flight
+            </a>
+        </div>
+        <div class=" items-center">
+            <a href="#" class="text-center flex px-6 py-2 rounded-full border border-[#A6A6A6] text-[#A6A6A6] hover:bg-blue-700 hover:text-white hover:font-bold transition-colors duration-300">
+                Appartment
+            </a>
+        </div>
+        <div class=" items-center">
+            <a href="#" class="text-center flex px-6 py-2 rounded-full border border-[#A6A6A6] text-[#A6A6A6] hover:bg-blue-700 hover:text-white hover:font-bold transition-colors duration-300">
+                Camper
+            </a>
+        </div>
+    </div>
+
+    <div>
+        
+    </div>
+
+
+</body>
+</html>
